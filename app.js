@@ -57,5 +57,6 @@ router.use(function (req, res, next) {
   app.use('/', router);
 
 app.listen(3000, function() {
+app.listen(port, function() {
     console.log('Servidor ejecutandose en puerto 3000!');
 })
